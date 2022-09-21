@@ -1,0 +1,33 @@
+.dropzone {
+  width: 680px;
+  height: 250px;
+  padding: 2rem;
+  text-align: center;
+  border: dashed 1px rgb(54, 72, 87);
+  position: relative;
+  margin: 0 auto;
+  border-radius: 8px;
+  border-width: 2.5px;
+
+}
+
+input {
+  opacity: 0;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+button {
+  color: black;
+  width: 680px;
+  height: 55px;
+  text-align: start;
+  background-color: #009C7C;
+  border-radius: 6px;
+  border-style: none;
+
+}

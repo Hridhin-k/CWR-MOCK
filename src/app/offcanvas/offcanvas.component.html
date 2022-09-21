@@ -1,0 +1,52 @@
+<ng-template #content let-offcanvas>
+  <div class="offcanvas-header" style="background-color:#071b2e ;">
+    <h5 class="offcanvas-title" id="offcanvas-basic-title" style="color:rgb(255, 255, 255);text-align: center;">
+      checkWorkRights</h5>
+    <button type="button" class="btn-close" aria-label="Close" (click)="offcanvas.dismiss('Cross click')"
+      style="background-color: rgb(246, 246, 246);"></button>
+  </div>
+  <div class="offcanvas-body" style="background-color:#071b2e;">
+    <div>
+      <div class="row">
+        <div class="col-sm-12">
+          <a class="nav-link" routerLink='/Dashboard'><i class="fa-solid fa-chart-simple" style="margin:5px;"></i>
+            Dashboard</a>
+        </div>
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <a class="nav-link" routerLink='/Employees'><i class="fa-solid fa-address-card" style="margin:5px;"></i>
+          Employees</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <a class="nav-link" routerLink='/Reports'><i class="fa-solid fa-square-poll-horizontal" style="margin:5px;"></i>
+          Reports</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <a class="nav-link" routerLink='/Verifiers'><i class="fa-solid fa-passport" style="margin:5px;"></i>
+          Verifiers</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <a class="nav-link" routerLink='/Admin'><i class="fa-solid fa-chess-king" style="margin:5px;"></i>
+          Admin</a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</ng-template>
+
+<button class="btn btn-lg btn-outline-primary" (click)="open(content)"
+  style="background-color: rgb(155, 155, 155);margin:5px ;height:0.5rem;width:0.5rem"><span
+    class="navbar-toggler-icon"></span></button>

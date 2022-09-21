@@ -1,0 +1,25 @@
+.card {
+  background-color: #1a232b;
+  color: ivory;
+  padding-top: 20px;
+  border-color: rgb(69, 87, 101);
+  height: 7cm;
+  text-align: start;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 15px;
+
+
+}
+
+.cards {
+
+
+  margin: 0px;
+  padding: 0px;
+}
+
+#cardbtn {
+  background-color: #14283b;
+  border-color: #14283b;
+}

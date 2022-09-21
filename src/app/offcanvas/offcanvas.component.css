@@ -1,0 +1,36 @@
+.nav-link {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #071b2e;
+  color: rgb(69, 87, 101);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: start;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #071b2e;
+}
+
+.nav-link:hover {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #021424;
+  color: ivory;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  width: auto;
+  border-left-color: #000000;
+}
+
+.nav-link:focus {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #021424;
+  color: ivory;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  width: auto;
+  border-left-color: #009C7C;
+}
