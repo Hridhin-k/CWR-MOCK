@@ -14,10 +14,11 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ReportsComponent } from './reports/reports.component';
 import { VerifiersComponent } from './verifiers/verifiers.component';
 import { AdminComponent } from './admin/admin.component';
-import { SidebarDirective } from './sidebar.directive';
+
 import { AllchecksComponent } from './allchecks/allchecks.component';
 import { CommunicationComponent } from './communication/communication.component';
 import { UploadEvidenceComponent } from './upload-evidence/upload-evidence.component';
+import { LoadingSpinnerComponent } from './loading-spinner/loading-spinner.component';
 
 @NgModule({
   declarations: [
@@ -32,10 +33,11 @@ import { UploadEvidenceComponent } from './upload-evidence/upload-evidence.compo
     ReportsComponent,
     VerifiersComponent,
     AdminComponent,
-    SidebarDirective,
+
     AllchecksComponent,
     CommunicationComponent,
-    UploadEvidenceComponent
+    UploadEvidenceComponent,
+    LoadingSpinnerComponent
   ],
   imports: [
     BrowserModule,

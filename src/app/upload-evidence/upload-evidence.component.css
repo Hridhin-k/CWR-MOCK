@@ -1,5 +1,5 @@
 .dropzone {
-  width: 680px;
+  width: 650px;
   height: 250px;
   padding: 2rem;
   text-align: center;
@@ -24,7 +24,7 @@ input {
 
 button {
   color: black;
-  width: 680px;
+  width: 650px;
   height: 55px;
   text-align: start;
   background-color: #009C7C;

@@ -1,0 +1,53 @@
+.form-control {
+  background-color: #14283b;
+  border-color: rgb(54, 72, 87);
+  border-radius: 8px;
+  color: rgb(54, 72, 87);
+  height: 4rem;
+  margin-bottom: 2rem
+}
+
+.form-control:active {
+  background-color: #14283b;
+  border-color: rgb(206, 206, 206);
+  border-radius: 8px;
+  color: rgb(206, 206, 206);
+  height: 4rem;
+  margin-bottom: 2rem
+}
+
+.form-control:focus {
+  background-color: #14283b;
+  border-color: rgb(206, 206, 206);
+  border-radius: 8px;
+  color: rgb(206, 206, 206);
+  height: 4rem;
+  margin-bottom: 2rem
+}
+
+
+button {
+  margin-left: 1.5rem;
+  border-radius: 8px;
+  border-style: solid;
+  width: 6rem;
+  margin-top: 9rem;
+}
+
+#nextButton {
+  background-color: #009C7C;
+  border-color: #009C7C;
+  color: ivory;
+  opacity: 50%;
+}
+
+#backButton {
+  background-color: #14283b;
+  border-color: rgb(209, 209, 209);
+  color: rgb(209, 209, 209)
+}
+
+#nextButton:focus {
+
+  opacity: 100%;
+}
