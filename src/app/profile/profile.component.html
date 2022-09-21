@@ -86,14 +86,15 @@
 
   <!-- ------------------------- navlinkss Start---------------------------------------- -->
   <nav class="nav">
-    <a class="nav-link" id="flexlinks" (click)="allCheck()">All Checks</a>
-    <a class="nav-link" id="flexlinks" (click)="communication()">Communications</a>
+    <a class="nav-link" id="flexlinks" routerLink="allchecks">All Checks</a>
+    <a class="nav-link" id="flexlinks" routerLink="communications">Communications</a>
     <a class="nav-link" id="flexlinks">Notes</a>
     <a class="nav-link" id="flexlinks">Documents</a>
   </nav>
   <hr style="color: rgb(69, 87, 101);height:2.5px;">
   <!-- ------------------------- navlinkss Over---------------------------------------- -->
 
-  <app-allchecks *ngIf="allcheckflag"></app-allchecks>
-  <app-communication *ngIf="communicationflag"></app-communication>
+  <!-- <app-allchecks *ngIf="allcheckflag"></app-allchecks> -->
+  <router-outlet></router-outlet>
+  <!-- <app-communication *ngIf="communicationflag"></app-communication> -->
 </div>
