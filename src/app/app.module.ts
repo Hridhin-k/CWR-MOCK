@@ -19,6 +19,7 @@ import { AllchecksComponent } from './allchecks/allchecks.component';
 import { CommunicationComponent } from './communication/communication.component';
 import { UploadEvidenceComponent } from './upload-evidence/upload-evidence.component';
 import { LoadingSpinnerComponent } from './loading-spinner/loading-spinner.component';
+import { CheckResultComponent } from './check-result/check-result.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { LoadingSpinnerComponent } from './loading-spinner/loading-spinner.compo
     AllchecksComponent,
     CommunicationComponent,
     UploadEvidenceComponent,
-    LoadingSpinnerComponent
+    LoadingSpinnerComponent,
+    CheckResultComponent
   ],
   imports: [
     BrowserModule,

@@ -40,3 +40,10 @@ td {
   /* border-color: #14283b; */
   box-shadow: none;
 }
+
+/* @media screen and(max-width:1617px) {
+  .actionButton {
+    margin-right: 2rem;
+    display: none;
+  }
+} */

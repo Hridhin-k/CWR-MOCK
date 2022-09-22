@@ -1,0 +1,25 @@
+button {
+  margin-left: 1.5rem;
+  border-radius: 8px;
+  border-style: solid;
+  width: 9rem;
+
+}
+
+#nextButton {
+  background-color: #009C7C;
+  border-color: #009C7C;
+  color: ivory;
+  opacity: 50%;
+}
+
+#backButton {
+  background-color: #14283b;
+  border-color: rgb(209, 209, 209);
+  color: rgb(209, 209, 209)
+}
+
+#nextButton:focus {
+
+  opacity: 100%;
+}

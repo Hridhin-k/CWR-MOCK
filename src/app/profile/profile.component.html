@@ -1,23 +1,24 @@
-<div class="container-fluid" style="padding:0px;">
-  <div class="row">
+<div class="container-fluid">
 
-    <div class="col-md-10">
+  <div class="d-flex bd-highlight mb-3">
+    <div class="p-2 bd-highlight">
+
 
       <div class="input-icons">
         <i class="fa-solid fa-magnifying-glass" style="color: ivory;"></i>
         <input type="text" class='searchbox' placeholder="Search for an Employee"
-          style="color:ivory ;margin-top:1em;height: 3rem ;max-width:30rem;margin-left:2rem">
+          style="color:ivory ;margin-top:1em;height: 3rem ;margin-left:2rem">
       </div>
     </div>
 
-    <div class="col-md-1">
+    <div class="p-2 bd-highlight" style="margin-left:auto;">
 
       <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle=""
         aria-haspopup="true" aria-expanded="true" style="margin-top: 1rem;height: 1.3cm;">Add Employee</button>
-    </div>
 
 
-    <div class="col-md-1">
+
+
       <svg xmlns="http://www.w3.org/2000/svg" width="50" height="60" fill="currentColor" class="bi bi-person-circle"
         viewBox="0 0 16 16" style="color: rgb(223, 223, 223);margin-top:0.5em;margin-left: 5rem;">
         <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
@@ -26,10 +27,10 @@
       </svg>
     </div>
   </div>
-  <hr style="color: rgb(69, 87, 101);height:2px;">
+  <hr style="color: rgb(69, 87, 101);height:2px;padding: 0px;">
 
-  <div class="row">
-    <div class="col-md-1">
+  <div class="d-flex bd-highlight mb-3">
+    <div class="p-2 bd-highlight">
       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-left"
         viewBox="0 0 16 16" style="color:ivory ;margin-top: 1rem;">
         <path fill-rule="evenodd"
@@ -38,7 +39,8 @@
     </div>
 
 
-    <div class="col-md-10">
+
+    <div class="p-2 bd-highlight">
       <div class="media d-flex align-items-center"><img src="https://bootstrapious.com/i/snippets/sn-v-nav/avatar.png"
           alt="..." width="75" class="mr-3 rounded-circle img-thumbnail shadow-sm" style="margin-right:1rem ;">
         <div class="media-body">
@@ -51,40 +53,38 @@
     </div>
 
 
-    <div class="col-md-1">
 
-      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle=">"
+    <div class="ml-auto p-2 bd-highlight" style="margin-left:auto;">
+      <button class="btn btn-secondary dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle=">"
         aria-haspopup="true" aria-expanded="true"
-        style="background-color:#14283b;color:ivory;border-color: rgb(69, 87, 101);margin-top: 1rem;width:8rem">
+        style="background-color:#14283b;color:ivory;border-color: rgb(69, 87, 101);margin-top: 1rem;width:8rem ;">
         Actions
       </button>
 
     </div>
   </div>
   <!-- ------------------------- TableStart---------------------------------------- -->
-  <div class="row">
-    <div class="col-xs-12">
-      <table class="table table-bordered" style="border-color: rgb(69,87,101);">
-        <thead style="color: rgb(69, 87, 101);">
-          <tr>
-            <th scope="col">Email</th>
-            <th scope="col">Business Unit</th>
-            <th scope="col">Recruitment ID</th>
-            <th scope="col">Payroll ID</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr style="color: ivory;">
-            <td>jasondoe@gmail.com</td>
-            <td>Hotel</td>
-            <td>09978</td>
-            <td>H564A</td>
-          </tr>
-        </tbody>
 
-      </table>
-    </div>
-  </div>
+  <table class="table table-bordered" style="border-color: rgb(69,87,101);">
+    <thead style="color: rgb(69, 87, 101);">
+      <tr>
+        <th scope="col">Email</th>
+        <th scope="col">Business Unit</th>
+        <th scope="col">Recruitment ID</th>
+        <th scope="col">Payroll ID</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="color: ivory;">
+        <td>jasondoe@gmail.com</td>
+        <td>Hotel</td>
+        <td>09978</td>
+        <td>H564A</td>
+      </tr>
+    </tbody>
+
+  </table>
+
   <!-- ------------------------- TableOver---------------------------------------- -->
 
 
@@ -98,7 +98,7 @@
   <hr style="color: rgb(69, 87, 101);height:2.5px;">
   <!-- ------------------------- navlinkss Over---------------------------------------- -->
 
-  <!-- <app-allchecks *ngIf="allcheckflag"></app-allchecks> -->
+
   <router-outlet></router-outlet>
-  <!-- <app-communication *ngIf="communicationflag"></app-communication> -->
+
 </div>

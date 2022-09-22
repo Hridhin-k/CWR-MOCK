@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AdminComponent } from './admin/admin.component';
 import { AllchecksComponent } from './allchecks/allchecks.component';
+import { CheckResultComponent } from './check-result/check-result.component';
 import { CommunicationComponent } from './communication/communication.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { EvidenceComponent } from './evidence/evidence.component';
@@ -17,7 +18,7 @@ const routes: Routes = [{ path: 'Dashboard', component: DashboardComponent },
   path: 'Employees', component: ProfileComponent,
   children: [
 
-    { path: '', component: AllchecksComponent },
+    { path: '', redirectTo: 'allchecks', pathMatch: 'full' },
     { path: 'allchecks', component: AllchecksComponent },
     { path: 'communications', component: CommunicationComponent }]
 },
@@ -26,13 +27,13 @@ const routes: Routes = [{ path: 'Dashboard', component: DashboardComponent },
   children: [
     { path: '', component: UploadEvidenceComponent },
     { path: 'partlyvaccinated', component: PartlyVaccinatedComponent },
-
+    { path: 'result', component: CheckResultComponent },
   ]
 },
 { path: 'Reports', component: ReportsComponent },
 { path: 'Verifiers', component: VerifiersComponent },
 { path: 'Admin', component: AdminComponent },
-{ path: 'loading', component: LoadingSpinnerComponent }
+
 ];
 
 @NgModule({

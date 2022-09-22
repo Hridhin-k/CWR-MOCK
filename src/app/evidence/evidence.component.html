@@ -1,36 +1,43 @@
-<div class="container-fluid" style="padding: 0px;">
-  <div class="row" style="background-color: #071b2e; height:10rem;">
-    <div class=" col-md-10">
-
-      <h6 style="margin-left:2rem;color: rgb(134, 133, 133) ;padding-right: 1rem;"><svg
-          xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-left"
-          viewBox="0 0 16 16" style="color: ivory;margin-right: 1rem;" routerLink="/Employees">
-          <path fill-rule="evenodd"
-            d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
-        </svg>Back
-        to Profile</h6>
-    </div>
-
-
-
-    <div class=" col-md-10">
-      <div class="media d-flex align-items-center"><img src="https://bootstrapious.com/i/snippets/sn-v-nav/avatar.png"
-          alt="..." width="60" class="mr-3 rounded-circle img-thumbnail shadow-sm"
-          style="margin-right:1rem ;margin-left: 2rem;">
-        <div class="media-body">
-          <h4 class="m-0" style="color:ivory;margin:1rem;padding:5px ;">Vaccination Check</h4>
-          <p class="font-weight-light text-muted mb-0">Jason Doe<span style="color:rgb(255, 255, 255)"> . </span> Hotel
-
-          </p>
-
-        </div>
+<div class="container-fluid" style="width:100%;padding: 0px;">
+  <!-- <div class="row" style="background-color: #071b2e; height:10rem;">
+    <div class=" col-md-10"> -->
+  <div style="background-color: #071b2e; height:12rem;">
+    <div class="d-flex bd-highlight mb-3">
+      <div class="p-2 bd-highlight">
+        <h6 style="margin-left:2rem;color: rgb(134, 133, 133) ;"><svg xmlns="http://www.w3.org/2000/svg" width="30"
+            height="30" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16"
+            style="color: ivory;margin-right: 1rem;" routerLink="/Employees">
+            <path fill-rule="evenodd"
+              d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+          </svg><span class="d-none d-sm-inline">Back
+            to Profile</span></h6>
       </div>
     </div>
+    <div class="d-flex bd-highlight mb-3">
+      <div class="p-2 bd-highlight">
 
+        <!-- <div class=" col-md-10"> -->
+        <div class="media d-flex align-items-center">
+          <img src="https://bootstrapious.com/i/snippets/sn-v-nav/avatar.png" alt="..." width="60"
+            class="mr-3 rounded-circle img-thumbnail shadow-sm" style="margin-right:1rem ;margin-left: 2rem;">
+          <div class="media-body">
+            <h4 class="m-0" style="color:ivory;margin:1rem;padding:5px ;">Vaccination Check</h4>
+            <p class="font-weight-light text-muted mb-0">Jason Doe<span style="color:rgb(255, 255, 255)"> . </span>
+              Hotel
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="p-2 bd-highlight" style="margin-left: auto;margin-bottom:1rem">
+        <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" fill="currentColor" class="bi bi-virus"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M8 0a1 1 0 0 1 1 1v1.402c0 .511.677.693.933.25l.7-1.214a1 1 0 0 1 1.733 1l-.701 1.214c-.256.443.24.939.683.683l1.214-.701a1 1 0 0 1 1 1.732l-1.214.701c-.443.256-.262.933.25.933H15a1 1 0 1 1 0 2h-1.402c-.512 0-.693.677-.25.933l1.214.701a1 1 0 1 1-1 1.732l-1.214-.7c-.443-.257-.939.24-.683.682l.701 1.214a1 1 0 1 1-1.732 1l-.701-1.214c-.256-.443-.933-.262-.933.25V15a1 1 0 1 1-2 0v-1.402c0-.512-.677-.693-.933-.25l-.701 1.214a1 1 0 0 1-1.732-1l.7-1.214c.257-.443-.24-.939-.682-.683l-1.214.701a1 1 0 1 1-1-1.732l1.214-.701c.443-.256.261-.933-.25-.933H1a1 1 0 1 1 0-2h1.402c.511 0 .693-.677.25-.933l-1.214-.701a1 1 0 1 1 1-1.732l1.214.701c.443.256.939-.24.683-.683l-.701-1.214a1 1 0 0 1 1.732-1l.701 1.214c.256.443.933.261.933-.25V1a1 1 0 0 1 1-1Zm2 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM6 7a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm1 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm5-3a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z" />
+        </svg>
+      </div>
+    </div>
   </div>
-
 </div>
-
 
 <div style="background-color: #14283b;">
   <router-outlet></router-outlet>
