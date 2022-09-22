@@ -23,3 +23,27 @@ button {
 
   opacity: 100%;
 }
+
+.container {
+  background-color: #14283b;
+  margin-top: 3rem;
+  text-align: start;
+  margin-bottom: auto;
+  padding: 0px;
+  max-width: 900px;
+}
+
+.card {
+  border-color: grey;
+  background-color: #14283b;
+  height: 600px;
+  border-radius: 6px;
+}
+
+.card-header {
+  border: none;
+  padding: 1rem;
+  background-color: goldenrod;
+  border-color: goldenrod;
+  height: 50px;
+}

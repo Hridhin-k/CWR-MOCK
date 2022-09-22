@@ -47,3 +47,8 @@ td {
     display: none;
   }
 } */
+hr {
+  color: rgb(69, 87, 101);
+  height: 2px;
+  padding: 0px;
+}

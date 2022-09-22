@@ -51,3 +51,22 @@ button {
 
   opacity: 100%;
 }
+
+.container {
+  background-color: #14283b;
+  margin-top: 3rem;
+  text-align: start;
+  margin-bottom: auto;
+}
+
+.card-header {
+  color: rgb(209, 209, 209);
+}
+
+.hourglass {
+  padding: 1rem;
+  color: rgb(209, 209, 209);
+  background-color: #364049;
+  border-radius: 6px;
+  margin-right: 0.5rem;
+}

@@ -34,3 +34,7 @@
   width: auto;
   border-left-color: #009C7C;
 }
+
+.offcanvas-header {
+  background-color: #071b2e;
+}

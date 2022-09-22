@@ -23,3 +23,7 @@
   background-color: #14283b;
   border-color: #14283b;
 }
+
+.card-header {
+  border-color: rgb(69, 87, 101);
+}
