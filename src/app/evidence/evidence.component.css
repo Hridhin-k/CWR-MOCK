@@ -6,3 +6,7 @@
 .outlet {
   background-color: #14283b;
 }
+
+@media (max-width:480px) {
+  .container-fluid {}
+}

@@ -7,23 +7,15 @@
   margin-bottom: 2rem
 }
 
-.form-control:active {
-  background-color: #14283b;
+.form-control:active,
+.form-control:focus {
   border-color: rgb(206, 206, 206);
-  border-radius: 8px;
   color: rgb(206, 206, 206);
   height: 4rem;
-  margin-bottom: 2rem
+
 }
 
-.form-control:focus {
-  background-color: #14283b;
-  border-color: rgb(206, 206, 206);
-  border-radius: 8px;
-  color: rgb(206, 206, 206);
-  height: 4rem;
-  margin-bottom: 2rem
-}
+
 
 
 button {
@@ -69,4 +61,11 @@ button {
   background-color: #364049;
   border-radius: 6px;
   margin-right: 0.5rem;
+}
+
+@media (max-width:480px) {
+  .container {
+    margin-left: 0.25rem;
+
+  }
 }

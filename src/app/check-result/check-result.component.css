@@ -20,7 +20,6 @@ button {
 }
 
 #nextButton:focus {
-
   opacity: 100%;
 }
 
@@ -30,6 +29,7 @@ button {
   text-align: start;
   margin-bottom: auto;
   padding: 0px;
+
   max-width: 900px;
 }
 
@@ -38,6 +38,8 @@ button {
   background-color: #14283b;
   height: 600px;
   border-radius: 6px;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .card-header {
@@ -46,4 +48,16 @@ button {
   background-color: goldenrod;
   border-color: goldenrod;
   height: 50px;
+}
+
+@media (max-width:480px) {
+  .card {
+    margin-right: 0.5rem;
+    height: 250px;
+
+  }
+
+  #nextButton {
+    margin-right: 1.5rem;
+  }
 }

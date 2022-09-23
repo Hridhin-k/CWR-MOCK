@@ -9,12 +9,9 @@
   margin-bottom: 0.5rem;
   border-radius: 15px;
 
-
 }
 
 .cards {
-
-
   margin: 0px;
   padding: 0px;
 }
@@ -26,4 +23,11 @@
 
 .card-header {
   border-color: rgb(69, 87, 101);
+}
+
+@media (max-width:480px) {
+  .card {
+    margin-left: 0.5rem;
+
+  }
 }

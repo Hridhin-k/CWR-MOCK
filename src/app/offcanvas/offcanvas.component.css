@@ -11,28 +11,20 @@
   border-color: #071b2e;
 }
 
-.nav-link:hover {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: #021424;
+.nav-link:hover,
+.nav-link:focus {
   color: ivory;
-  margin-top: 10px;
-  margin-bottom: 10px;
   text-align: center;
   width: auto;
-  border-left-color: #000000;
+
 }
 
 .nav-link:focus {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: #021424;
-  color: ivory;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  text-align: center;
-  width: auto;
   border-left-color: #009C7C;
+}
+
+.nav-link:hover {
+  border-left-color: #000000;
 }
 
 .offcanvas-header {

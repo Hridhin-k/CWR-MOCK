@@ -41,3 +41,9 @@ button {
   text-align: center;
   max-width: 680px;
 }
+
+@media (max-width:480px) {
+  .container {
+    margin-left: 0.25rem;
+  }
+}
