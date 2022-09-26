@@ -3,6 +3,7 @@ button {
   border-radius: 8px;
   border-style: solid;
   width: 9rem;
+  margin-right: 1rem;
 
 }
 
@@ -53,11 +54,13 @@ button {
 @media (max-width:480px) {
   .card {
     margin-right: 0.5rem;
+    margin-left: 0.5rem;
     height: 250px;
 
   }
 
   #nextButton {
-    margin-right: 1.5rem;
+    margin-right: 2rem;
+
   }
 }

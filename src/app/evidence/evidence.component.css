@@ -8,5 +8,9 @@
 }
 
 @media (max-width:480px) {
-  .container-fluid {}
+  .container-fluid {
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
